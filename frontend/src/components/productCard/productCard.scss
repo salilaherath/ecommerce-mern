@@ -1,0 +1,17 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+
+  .card {
+    width: 350px;
+    background: whitesmoke;
+
+    .image img {
+      height: 400px;
+      width: 350px;
+      object-fit: cover;
+    }
+  }
+}
