@@ -51,6 +51,32 @@
       background-repeat: no-repeat;
       background-size: cover;
       grid-column: span 2;
+
+      .text {
+        padding-top: 60px;
+        padding-left: 40px;
+
+        .small {
+          color: white;
+          font-size: 28px;
+          font-family: 'Montserrat';
+          font-weight: 500;
+        }
+
+        .medium {
+          color: white;
+          font-size: 34px;
+          font-family: 'Montserrat';
+          font-weight: 600;
+        }
+
+        .big {
+          color: white;
+          font-size: 56px;
+          font-family: 'Montserrat';
+          font-weight: bold;
+        }
+      }
     }
 
     .third {
@@ -58,6 +84,32 @@
         url('https://images.pexels.com/photos/380782/pexels-photo-380782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
       background-repeat: no-repeat;
       background-size: cover;
+
+      .text {
+        padding-top: 60px;
+        padding-left: 40px;
+
+        .small {
+          color: white;
+          font-size: 28px;
+          font-family: 'Montserrat';
+          font-weight: 500;
+        }
+
+        .medium {
+          color: white;
+          font-size: 34px;
+          font-family: 'Montserrat';
+          font-weight: 600;
+        }
+
+        .big {
+          color: white;
+          font-size: 56px;
+          font-family: 'Montserrat';
+          font-weight: bold;
+        }
+      }
     }
 
     .fourth {
@@ -66,6 +118,31 @@
       background-repeat: no-repeat;
       background-size: cover;
       grid-column: span 3;
+
+      .text {
+        padding-top: 50px;
+        padding-left: 700px;
+        .small {
+          color: white;
+          font-size: 28px;
+          font-family: 'Montserrat';
+          font-weight: 500;
+        }
+
+        .medium {
+          color: white;
+          font-size: 34px;
+          font-family: 'Montserrat';
+          font-weight: 600;
+        }
+
+        .big {
+          color: white;
+          font-size: 56px;
+          font-family: 'Montserrat';
+          font-weight: bold;
+        }
+      }
     }
   }
 }

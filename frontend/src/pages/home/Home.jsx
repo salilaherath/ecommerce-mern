@@ -2,6 +2,7 @@ import GrayHeader from '../../components/grayHeader/GrayHeader';
 import Header from '../../components/Header/Header';
 import NewArrivals from '../../components/newArrivals/NewArrivals';
 import SwiperHero from '../../components/swiper/SwiperHero';
+import Footer from '../../components/footer/Footer';
 import './home.scss';
 
 const Home = () => {
@@ -20,13 +21,33 @@ const Home = () => {
           </div>
         </div>
         <div className='second-container'>
-          <div className='second'>2</div>
-          <div className='third'>3</div>
-          <div className='fourth'>4</div>
+          <div className='second'>
+            <div className='text'>
+              <div className='small'>Up to</div>
+              <div className='big'>30%</div>
+              <div className='medium'>Off</div>
+            </div>
+          </div>
+          <div className='third'>
+            <div className='text'>
+              <div className='small'>Up to</div>
+              <div className='big'>20%</div>
+              <div className='medium'>Off</div>
+            </div>
+          </div>
+          <div className='fourth'>
+            <div className='text'>
+              <div className='small'>Up to</div>
+              <div className='big'>10% Off</div>
+              <div className='medium'>Sneakers</div>
+            </div>
+          </div>
         </div>
       </div>
 
       <NewArrivals />
+
+      <Footer />
     </div>
   );
 };

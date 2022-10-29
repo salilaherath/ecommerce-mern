@@ -28,14 +28,16 @@ const ProductCard = () => {
             <ShoppingCartOutlinedIcon className='cart' />
           </div>
 
-          <div className='price'>Rs. {product.price}</div>
+          <div className='sRow'>
+            <div className='price'>Rs. {product.price}</div>
 
-          <div className='rate'>
-            <StarIcon className='star' />
-            <StarIcon className='star' />
-            <StarIcon className='star' />
-            <StarIcon className='star' />
-            <StarIcon className='star' />
+            <div className='rate'>
+              <StarIcon className='star' />
+              <StarIcon className='star' />
+              <StarIcon className='star' />
+              <StarIcon className='star' />
+              <StarIcon className='star' />
+            </div>
           </div>
         </div>
       ))}
