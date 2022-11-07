@@ -2,30 +2,29 @@
   .product {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 50px 200px;
+    margin: 50px 220px;
 
     .image {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      width: 620px;
       gap: 10px;
+      width: 680px;
 
       .img1 {
         grid-column: span 3;
 
         img {
-          height: 620px;
-          width: 620px;
+          width: 680px;
+          height: 700px;
           object-fit: cover;
         }
       }
-
       .img2 {
         grid-column: span 1;
 
         img {
-          height: 200px;
-          width: 200px;
+          width: 220px;
+          height: 220px;
           object-fit: cover;
         }
       }
@@ -33,8 +32,8 @@
         grid-column: span 1;
 
         img {
-          height: 200px;
-          width: 200px;
+          width: 220px;
+          height: 220px;
           object-fit: cover;
         }
       }
@@ -42,15 +41,15 @@
         grid-column: span 1;
 
         img {
-          height: 200px;
-          width: 200px;
+          width: 220px;
+          height: 220px;
           object-fit: cover;
         }
       }
     }
 
     .details {
-      //   padding-left: 50px;
+      width: 100%;
 
       .title {
         font-size: 36px;

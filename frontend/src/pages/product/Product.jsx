@@ -6,6 +6,8 @@ import Footer from '../../components/footer/Footer';
 import StarIcon from '@mui/icons-material/Star';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
+import React, { useRef, useState } from 'react';
+
 const Product = () => {
   return (
     <div className='productDetails'>
@@ -17,12 +19,15 @@ const Product = () => {
           <div className='img1'>
             <img src={require('../../assets/products/product3.jpg')} alt='' />
           </div>
+
           <div className='img2'>
             <img src={require('../../assets/products/product3.1.jpg')} alt='' />
           </div>
+
           <div className='img3'>
             <img src={require('../../assets/products/product3.2.jpg')} alt='' />
           </div>
+
           <div className='img4'>
             <img src={require('../../assets/products/product3.3.jpg')} alt='' />
           </div>
