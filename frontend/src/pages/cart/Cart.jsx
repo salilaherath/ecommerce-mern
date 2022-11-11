@@ -56,7 +56,7 @@ const Cart = () => {
           <p>Enter your coupon code if you have one.</p>
           <input type='text' name='' id='code' placeholder='Voucher code' className='input-code' />
           <br />
-          <input type='button' value='APPLY' className='apply-btn' />
+          <button className='apply-btn'>Apply</button>
         </div>
 
         <div className='checkout'>
@@ -74,7 +74,7 @@ const Cart = () => {
               <td>Rs.2400.00</td>
             </tr>
           </table>
-          <input type='button' value='CHECKOUT' className='checkout-btn' />
+          <button className='checkout-btn'>CHECKOUT</button>
         </div>
       </div>
 
