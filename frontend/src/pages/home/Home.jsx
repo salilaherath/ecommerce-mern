@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <GrayHeader />
       <Header />
-      <SwiperHero />
+      {/* <SwiperHero /> */}
 
       <div className='grid-container'>
         <div className='first'>
